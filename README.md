@@ -12,6 +12,13 @@ This project studies how **energy-stress periods** affect firms across four econ
 
 The notebook combines **cross-sector comparison**, **benchmark-relative analysis**, **Brent sensitivity analysis**, and **volatility-regime analysis** to understand which firms are most vulnerable, which are more resilient, and how oil-related stress transmits through European equity markets.
 
+---
+
+## Repository structure
+- `geopolitical_energy_shocks_european_equities.ipynb` — main notebook with the full workflow
+- `README.md` — project summary, methodology, and key findings
+
+---
 ## Research Question
 How do geopolitical energy-shock periods affect the relative performance and vulnerability of selected European firms across airlines, transportation/logistics, chemicals, and energy?
 
@@ -39,6 +46,8 @@ Daily market data is downloaded using `yfinance` for the following period:
 - TotalEnergies
 - STOXX Europe 600
 - Brent crude oil
+
+---
 
 ## Methodology
 
@@ -81,6 +90,8 @@ For each company, daily returns are regressed on:
 - **Brent return**
 
 This separates broad market exposure from direct oil sensitivity.
+
+---
 
 ## Main Results
 
@@ -157,6 +168,8 @@ The regression summary classifies firms broadly as:
 - **Negative Brent sensitivity:** Ryanair, Lufthansa, DHL Group
 - **Weak / insignificant Brent sensitivity:** BASF, Covestro
 
+---
+
 ## Key Findings
 - **Energy is the strongest sector overall** in the sample.
 - **TotalEnergies and Shell** combine the best absolute performance, strongest benchmark-relative outperformance, and the clearest positive Brent sensitivity.
@@ -165,6 +178,8 @@ The regression summary classifies firms broadly as:
 - **DHL Group** is one of the weakest names in both absolute and relative terms.
 - Most firms are still more strongly linked to the **broader European market** than to Brent on a day-to-day basis.
 - The relationship between oil stress and equities is **not one-dimensional**: sector structure, market environment, and firm-specific resilience all matter.
+
+---
 
 ## Why this project matters
 This project combines:
